@@ -17,7 +17,7 @@
     <i class="bi bi-list menu-mobile"></i>
 
     <aside id="header">
-        <section class="profile">
+        <section class="profile">   <!-- Foto do perfil -->
             <img src="../static/img/pauloperfil.jpg" alt="Foto do Paulo">
             <h1>Paulo Alhadef</h1>
             <div class="social-links mt-4 text-center">
@@ -33,7 +33,7 @@
             </div>
         </section>
 
-        <nav id="navbar" class="nav-menu">
+        <nav id="navbar" class="nav-menu">      <!-- Barra de navegação -->
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#inicio"><i class="bi bi-house"></i> Inicio</a>
@@ -328,7 +328,194 @@
             </div>
 
         </section>
-        <p></p>
+
+        <section class="mt-5 cv" id="curriculo">    <!-- CURRÍCULO -->
+
+            <div class="container pb-5">
+                <h2 class="pt-3 pb-4">Currículo</h2>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Educação</h3>
+
+                        <div class="cv-item">
+                            <h4>Bacharelado em Engenharia de Software</h4>
+                            <h5>2021-2025</h5>
+                            <p><em>Uninter</em></p>
+                            <p>Desenvolvimento de softwares, Gestão de projetos de software, 
+                                Arquitetura, testes e demais atividades no ciclo de vida de um software.</p>
+                        </div>
+                            
+                        <div class="cv-item">
+                            <h4>Técnico em Informática</h4>
+                            <h5>2021-2021</h5>
+                            <p><em>Ietam - Inst. de Ed. Tecnológica Avançada da Amazônia</em></p>
+                            <p>Montagem e manutenção de computadores, detecção e correção 
+                                de problemas nos computadores, instalação e configuração 
+                                de redes e softwares, bem como o desenvolvimento de sistemas e websites.</p>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>Montagem e Manutenção de Micros e Redes</h4>
+                            <h5>2010-2010</h5>
+                            <p><em>Microlins</em></p>
+                            <p>Instalação de componentes e qualquer outro hardware,
+                                remover dispositivos, detectar defeitos e melhorar o 
+                                desempenho do micro. Conhecer os equipamentos e ferramentas necessárias 
+                                para a montagem de uma rede tanto cabeada quanto 
+                                wireless, configuração, compartilhamentos e protocolos.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="cv-title">Profissional</h3>
+                         
+                        <div class="cv-item">
+                            <h4>Supervisor Técnico de Informática - DBA</h4>
+                            <h5>2021-atual</h5>
+                            <p><em>Noturno Softwares</em></p>
+                            <p>Supervisionando a equipe técnica na execução das tarefas,
+                                help-desk e DataBase Administrator.
+                            </p>
+                        </div>
+
+                        <div class="cv-item">
+                            <h4>Técnico de Informática</h4>
+                            <h5>2021-2021</h5>
+                            <p><em>Testes Moleculares</em></p>
+                            <p>Instalação de redes e softwares, montagem e manutenção
+                                de computadores, detecção e correção de problemas, bem como
+                                o desenvolvimento de sistemas e sites.
+                            </p>
+                        </div>
+                               
+                        <div class="cv-item">
+                            <h4>Analista de Sistemas</h4>
+                            <h5>2018-2021</h5>
+                            <p><em>Grupo Careca</em></p>
+                            <p>Análises, desenvolvimento e implementação
+                                de sistemas inteligentes.
+                            </p>
+                        </div>
+                
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="mt-5 section-bg" id="portifolio">   <!-- PORTIFÓLIO -->
+            <div class="container pb-5 pt-5">
+
+                <h2 class="pb-4">Portifólio</h2>
+
+                <div id="carouselPortifolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselPortifolio" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                            
+                            <div class="carousel-item active" data-bs-interval="10000">
+                          
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="../static/img/loginForm.png" class="card-img-top" alt="Login Form">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Login Form</h5>
+                                            <p class="card-text">Projeto de uma tela de login criada com HTML, CSS e JavaScript.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/koreab00/loginform"
+                                                target="_blank" class="btn btn-outline-primary">
+                                                <i class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="../static/img/loadingScreen.png" class="card-img-top" alt="Loading Screen">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Animation Loading Screen</h5>
+                                                <p class="card-text">Tela de carregamento animada criada somente com HTML e CSS.</p>
+                                                <div class="d-flex justify-content-center">
+                                                    <a href="https://github.com/koreab00/loadingAnimation"
+                                                    target="_blank" class="btn btn-outline-primary">
+                                                    <i class="bi bi-link-45deg"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="../static/img/emBreve.png" class="card-img-top" alt="Em breve">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Projeto em desenvolvimento</h5>
+                                            <p class="card-text">Projeto em desenvolvimento</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="2000">
+                          
+
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="../static/img/loginForm.png" class="card-img-top" alt="Login Form">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Login Form</h5>
+                                            <p class="card-text">Projeto de uma tela de login criada com HTML, CSS e JavaScript.</p>
+                                            <div class="d-flex justify-content-center">
+                                                <a href="https://github.com/koreab00/loginform"
+                                                target="_blank" class="btn btn-outline-primary">
+                                                <i class="bi bi-link-45deg"></i></a>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="card">
+                                            <img src="../static/img/loadingScreen.png" class="card-img-top" alt="Loading Screen">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Animation Loading Screen</h5>
+                                                <p class="card-text">Tela de carregamento animada criada somente com HTML e CSS.</p>
+                                                <div class="d-flex justify-content-center">
+                                                    <a href="https://github.com/koreab00/loadingAnimation"
+                                                    target="_blank" class="btn btn-outline-primary">
+                                                    <i class="bi bi-link-45deg"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="../static/img/emBreve.png" class="card-img-top" alt="Em breve">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Projeto em desenvolvimento</h5>
+                                            <p class="card-text">Projeto em desenvolvimento</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselPortifolio" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+            </div>
+        </section>
 
     </main>
 
