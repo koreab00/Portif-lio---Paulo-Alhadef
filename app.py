@@ -28,7 +28,7 @@ class Contato:
 def index():
     return render_template('index.html')
 
-@app.route('/send', mothods=['GET', 'POST'])
+@app.route('/send', methods=['GET', 'POST'])
 def send():
     if request.method == 'POST':
         formContato = Contato(
