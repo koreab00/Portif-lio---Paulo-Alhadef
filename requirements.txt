@@ -36,6 +36,7 @@ pyOpenSSL==22.0.0
 pyperclip==1.8.2
 PyRect==0.1.4
 PyScreeze==0.1.28
+python-dotenv==0.21.0
 pytweening==1.0.4
 pywhatkit==5.3
 requests==2.27.1
